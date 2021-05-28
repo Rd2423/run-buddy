@@ -11,10 +11,8 @@ section {
 
 .hero {
   background-image: url("../images/hero-bg.jpeg");
-  height: 600px;
   background-position: center;
   background-size: cover;
-  position: relative;
 }
 
 
@@ -81,20 +79,21 @@ header nav ul li a {
 }
 
 footer {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
 }
 
 footer h2 {
-  display: inline;
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
 
 footer div {
-  float: right;
   line-height: 1.5;
   text-align: right;
 }
