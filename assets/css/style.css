@@ -13,22 +13,36 @@ section {
   background-image: url("../images/hero-bg.jpeg");
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
 }
 
 
-
-
 .hero-form {
+  width: 40%;
+  margin: 3.5%;
   color: #024e76;
   background-color: #fce138;
   padding: 20px;
-  width: 500px;
   border-style: solid;
   border-width: 3px;
   border-color: #024e76;
-  position: absolute;
-  bottom: 120px;
-  right: 140px;
   /* Alternatively you could assign the border value just like this: border:border: solid 3px #024e76;  */
 
 }
@@ -134,20 +148,20 @@ footer a {
 }
 
 .intro {
-  text-align: center;
+  
 }
 
 
 
-.intro p{
+.intro p {
   line-height: 1,7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -156,10 +170,12 @@ footer a {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+
 }
 
 .primary-border {
@@ -195,7 +211,6 @@ footer a {
 }
 
 .trainers {
-  text-align: center;
 }
 
 .trainer {
@@ -242,7 +257,6 @@ footer a {
 }
 
 .contact {
-  text-align: center;
   background: #024e76;
 }
 
@@ -280,3 +294,6 @@ footer a {
   color: #fce138;
 }
 
+.flex-row {
+  display: flex;
+}
